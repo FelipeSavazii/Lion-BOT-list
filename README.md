@@ -28,8 +28,9 @@ Comandos: [https://lion-bot.com/comandos](https://lion-bot.com/comandos).
   2. Acesse o [Discord Developers](https://discord.com/developers), crie uma nova aplicação e ative as intents;
   3. Copie o token de sua aplicação;
   4. Extraia os arquivos e troque o campo TOKEN na main por seu token, mas não se esqueça de colocá-lo entre aspas;
-  5. Após isso coloque os arquivos em uma hospedagem ou ligue-o no localhost;
-  6. Agora seu bot está online! Só edite o necessário e deixe ele com sua cara.
+  5. Inicialize o arquivo sql.create/init_db.py;
+  6. Após isso coloque os arquivos em uma hospedagem ou ligue-o no localhost;
+  7. Agora seu bot está online! Só edite o necessário e deixe ele com sua cara.
 
 ### Bliotecas necessárias:
 
