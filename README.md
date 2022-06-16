@@ -2,7 +2,7 @@
   <img src="https://github.com/FelipeSavazii/Lion-BOT/blob/main/Lion%20bot.png?raw=true" width="300" style="border-radius: 50%;">
 </div>
 
-<p align=center>Uma simples e divertida extensão do Lion BOT desenvolvida em Python. Ela adiciona comandos para **bot list**!</p>
+<p align=center>Uma simples e divertida extensão do Lion BOT desenvolvida em Python. Ela adiciona comandos para <b>bot list</b>!</p>
 
 ## Informações úteis:
 
