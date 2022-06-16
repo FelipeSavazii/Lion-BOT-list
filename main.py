@@ -1,0 +1,32 @@
+import discord
+from discord.ext import commands
+import os, re
+
+bot = commands.Bot(command_prefix="l-", intents=discord.Intents.all())
+
+@bot.event
+async def on_ready():
+    print(f"{bot.user} (ID: {bot.user.id})")
+
+
+for root, _, files in os.walk('structure'):
+    for file in files:
+        path = os.path.join(root, file)
+
+        if not os.path.isfile(path):
+            continue
+
+        path, ext = os.path.splitext(path)
+        if ext != '.py':
+            continue
+
+        extension = re.sub('\\\\|\/', '.', path)
+
+        try:
+            bot.load_extension(extension)
+        except Exception as e:
+            print(f'Ocorreu o erro {e} ao tentar carregar a extensão {extension}.')
+        else:
+            print(f'Extensão {extension} carregada com sucesso!')
+
+bot.run("OTU0ODI4NDMxNzk3OTMyMDcy.YjYzRQ.9rOOn90-eyrp1bK5Tx0nQVzTA8E")
