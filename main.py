@@ -29,4 +29,4 @@ for root, _, files in os.walk('structure'):
         else:
             print(f'Extensão {extension} carregada com sucesso!')
 
-bot.run("OTU0ODI4NDMxNzk3OTMyMDcy.YjYzRQ.9rOOn90-eyrp1bK5Tx0nQVzTA8E")
+bot.run(TOKEN)
